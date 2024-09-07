@@ -19,6 +19,22 @@ Kickstart.nvim targets *only* the latest
 ['nightly'](https://github.com/neovim/neovim/releases/tag/nightly) of Neovim.
 If you are experiencing issues, please make sure you have the latest versions.
 
+## Linux
+
+### Pre-built archives
+
+The [Releases](https://github.com/neovim/neovim/releases) page provides pre-built binaries for Linux systems.
+
+```sh
+curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim-linux64.tar.gz
+sudo rm -rf /opt/nvim
+sudo tar -C /opt -xzf nvim-linux64.tar.gz
+```
+
+Then add this to your shell config (`~/.bashrc`, `~/.zshrc`, ...):
+
+    export PATH="$PATH:/opt/nvim-linux64/bin"
+
 ### Install External Dependencies
 
 External Requirements:
