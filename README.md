@@ -19,9 +19,7 @@ Kickstart.nvim targets *only* the latest
 ['nightly'](https://github.com/neovim/neovim/releases/tag/nightly) of Neovim.
 If you are experiencing issues, please make sure you have the latest versions.
 
-## Linux
-
-### Pre-built archives
+### Linux
 
 The [Releases](https://github.com/neovim/neovim/releases) page provides pre-built binaries for Linux systems.
 
