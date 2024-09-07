@@ -46,9 +46,9 @@ External Requirements:
   - If you want to write Golang, you will need `go`
   - etc.
 
-  **NOTE**
-  Some plugins may require additional dependencies. Please refer to the plugin's
-  documentation for more information if you encounter issues.
+> **NOTE**
+> Some plugins may require additional dependencies. Please refer to the plugin's
+> documentation for more information if you encounter issues.
 
 > **NOTE**
 > See [Install Recipes](#Install-Recipes) for additional Windows and Linux specific notes
