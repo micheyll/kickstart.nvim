@@ -5,13 +5,13 @@ return {
   version = false, -- set this if you want to always pull the latest change
   opts = {
     -- add any opts here
-    provider = 'copilot',
+    provider = 'ollama',
     vendors = {
       ---@type AvanteProvider
       ollama = {
         ['local'] = true,
-        endpoint = '88.193.136.171:11434/v1',
-        model = 'deepseek-coder-v2:16b-lite-instruct-q8_0',
+        endpoint = '10.11.11.35:11434/v1',
+        model = 'deepseek-coder-v2:latest',
         parse_curl_args = function(opts, code_opts)
           return {
             url = opts.endpoint .. '/chat/completions',
